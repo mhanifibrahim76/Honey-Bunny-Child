@@ -88,6 +88,24 @@ const Hero = () => {
                       sizes="(max-width: 768px) 100vw, 50vw"
                     />
                   </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      src="/assets/slider-5.jpeg"
+                      alt="Konsultasi Psikologi"
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image
+                      src="/assets/slider-6.jpeg"
+                      alt="Konsultasi Psikologi"
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                    />
+                  </SwiperSlide>
                 </Swiper>
               </div>
             </div>
