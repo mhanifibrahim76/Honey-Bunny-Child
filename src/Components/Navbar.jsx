@@ -30,9 +30,9 @@ export default function Navbar() {
               <h1 className="text-base sm:text-lg font-bold text-gray-800">
                 Honey Bunny Child Development Center
               </h1>
-              <p className="text-[10px] sm:text-xs text-purple-600">
+              {/* <p className="text-[10px] sm:text-xs text-purple-600">
                 Klinik Cipete
-              </p>
+              </p> */}
             </div>
           </div>
 

@@ -18,7 +18,7 @@ const Hero = () => {
           {/* ===== KIRI (Text) ===== */}
           <div className="text-center md:text-left space-y-4 md:space-y-6">
             <div className="inline-block bg-purple-100 text-purple-600 px-3 py-1.5 rounded-full text-xs sm:text-sm font-medium">
-              Melayani dengan Dedikasi
+              Tumbuh bahagia dan berkembang maksimal bersama kami
             </div>
 
             <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-snug md:leading-tight">
@@ -81,7 +81,7 @@ const Hero = () => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src="/assets/slider-3.png"
+                      src="/assets/slider-7.jpeg"
                       alt="Konsultasi Psikologi"
                       fill
                       className="object-cover"

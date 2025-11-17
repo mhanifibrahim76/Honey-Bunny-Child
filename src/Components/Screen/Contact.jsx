@@ -26,7 +26,7 @@ const Contact = () => {
                 <div>
                   <p className="font-semibold mb-1">Alamat</p>
                   <p className="text-purple-100">
-                    Jl. Cipete Raya No 10A Cipete, Cilandak, Jakarta Timur
+                    Jl Jaha RT 003/010 No 57 Kalisari , Pasar Rebo , Jakarta Timur
                   </p>
                 </div>
               </div>
@@ -37,10 +37,10 @@ const Contact = () => {
                 <div>
                   <p className="font-semibold mb-1">WhatsApp / Telepon</p>
                   <a
-                    href="tel:085211975522"
+                    href="tel:081287521936"
                     className="text-purple-100 hover:text-white transition"
                   >
-                    0852-1197-5522
+                    0812 8752 1936
                   </a>
                 </div>
               </div>
@@ -96,7 +96,7 @@ const Contact = () => {
                 <Clock className="w-6 h-6 flex-shrink-0 mt-1" />
                 <div>
                   <p className="font-semibold mb-1">Jam Operasional</p>
-                  <p className="text-purple-100">09.00 - 18.00 WIB</p>
+                  <p className="text-purple-100">08.00-16.00 WIB</p>
                 </div>
               </div>
 
@@ -109,7 +109,7 @@ const Contact = () => {
               Lokasi Kami
             </h3>
 
-            <div className="relative rounded-xl overflow-hidden h-80 group shadow-md">
+            <div className="relative rounded-xl overflow-hidden h-100 group shadow-md">
               <Image
                 src="/assets/lokasi.jpeg"
                 alt="Honey Bunny Child Development Center"
@@ -118,7 +118,7 @@ const Contact = () => {
               />
 
               <a
-                href="https://maps.app.goo.gl/ipVomdcZLY3Wc7ne9?g_st=awb"
+                href="https://maps.app.goo.gl/NzzicZVQZS8HWrdB8"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="absolute inset-0 bg-purple-600/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col items-center justify-center text-white text-center"
