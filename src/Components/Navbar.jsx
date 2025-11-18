@@ -44,12 +44,12 @@ export default function Navbar() {
             >
               Beranda
             </Link>
-            {/* <Link
+            <Link
               href="/Layanan"
               className="text-gray-700 hover:text-purple-600 hover:underline underline-offset-4 transition duration-200"
             >
               Layanan
-            </Link> */}
+            </Link>
             <Link
               href="#Fasilitas"
               className="text-gray-700 hover:text-purple-600 hover:underline underline-offset-4 transition duration-200"

@@ -14,7 +14,7 @@ export default function Footer() {
             Melayani dengan Dedikasi untuk Tumbuh Kembang Anak
           </p>
           <p className="text-gray-500 text-sm">
-            © 2024 Honey Bunny Child Development Center - Klinik Cipete. All rights reserved.
+            © 2024 Honey Bunny Child Development Center . All rights reserved.
           </p>
         </div>
       </footer>

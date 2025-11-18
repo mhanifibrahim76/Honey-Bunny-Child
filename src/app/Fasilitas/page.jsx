@@ -4,7 +4,7 @@ import Footer from "@/Components/Footer";
 import Navbar from "@/Components/Navbar";
 import Image from "next/image";
 
-export default function Fasilitas() {
+export default function FasilitasPage() {
 
   // Foto horizontal untuk banner
   const banner = {
@@ -14,21 +14,21 @@ export default function Fasilitas() {
 
   // Foto vertical lainnya
   const fasilitas = [
-    { img: "/assets/Ruang terapi Perilaku ABA.jpeg", name: "Ruang terapi Perilaku /ABA" },
-    { img: "/assets/Ruang terapi Sensori Integrasi.jpeg", name: "Ruang terapi Sensori Integrasi" },
-    { img: "/assets/Ruang terapi Sensori Integrasi-2.jpeg", name: "Ruang terapi Sensori Integrasi" },
-    { img: "/assets/Ruang terapi wicara.jpeg", name: "Ruang terapi wicara" },
+    { img: "/assets/Ruang terapi Perilaku ABA.jpeg", name: "Ruang Terapi Perilaku / ABA" },
+    { img: "/assets/Ruang terapi Sensori Integrasi.jpeg", name: "Ruang Terapi Sensori Integrasi" },
+    { img: "/assets/Ruang terapi Sensori Integrasi-2.jpeg", name: "Ruang Terapi Sensori Integrasi" },
+    { img: "/assets/Ruang terapi wicara.jpeg", name: "Ruang Terapi Wicara" },
   ];
 
   return (
-    <section id="Fasilitas" className="py-20 px-4 bg-white/50 backdrop-blur-sm">
-      <div className="max-w-7xl mx-auto pb-10 px-4">
+    <section className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
+      <Navbar />
+
+      <div className="max-w-7xl mx-auto pb-10 pt-32 px-4">
 
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold text-gray-900 mb-4">
-            Fasilitas Kami
-          </h1>
+          <h1 className="text-5xl font-bold text-gray-900 mb-4">Fasilitas Kami</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Kami menyediakan fasilitas yang nyaman dan ramah anak untuk mendukung proses terapi dan konsultasi.
           </p>
@@ -49,7 +49,7 @@ export default function Fasilitas() {
           </div>
         </div>
 
-        {/* Grid Fasilitas (foto vertikal) */}
+        {/* Grid Foto Vertical */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {fasilitas.map((item, index) => (
             <div
@@ -66,7 +66,9 @@ export default function Fasilitas() {
               </div>
 
               <div className="p-5 text-center bg-white border-t">
-                <h3 className="text-lg font-semibold text-purple-600">{item.name}</h3>
+                <h3 className="text-lg font-semibold text-purple-600">
+                  {item.name}
+                </h3>
               </div>
             </div>
           ))}
@@ -78,12 +80,14 @@ export default function Fasilitas() {
             Lingkungan Nyaman & Aman
           </h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
-            Semua ruangan kami dirancang agar anak-anak merasa tenang dan bahagia selama proses terapi. 
+            Semua ruangan kami dirancang agar anak-anak merasa tenang dan bahagia selama proses terapi.
             Kami juga memastikan kebersihan dan keamanan menjadi prioritas utama.
           </p>
         </div>
 
       </div>
+
+      <Footer />
     </section>
   );
 }
