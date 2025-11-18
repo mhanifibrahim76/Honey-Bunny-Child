@@ -51,7 +51,7 @@ export default function Navbar() {
               Layanan
             </Link>
             <Link
-              href="#Fasilitas"
+              href="/Fasilitas"
               className="text-gray-700 hover:text-purple-600 hover:underline underline-offset-4 transition duration-200"
             >
               Fasilitas
