@@ -18,11 +18,9 @@ export default function SynapseClinicWebsite() {
       {/* Hero Section */}
       <Hero />
 
-      <section className="px-3 sm:px-6 md:px-8">
-        <Services />
-      </section>
+      <Services />
 
-      <Fasilitas/>
+      <Fasilitas />
 
       {/* Services Section */}
 
@@ -32,9 +30,7 @@ export default function SynapseClinicWebsite() {
       </section> */}
 
       {/* Contact Section */}
-      <section className="px-3 sm:px-6 md:px-8">
-        <Contact />
-      </section>
+      <Contact />
 
       {/* Footer */}
       <Footer />
