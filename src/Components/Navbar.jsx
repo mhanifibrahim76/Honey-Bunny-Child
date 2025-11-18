@@ -56,12 +56,12 @@ export default function Navbar() {
             >
               Fasilitas
             </Link>
-            <Link
+            {/* <Link
               href="#kontak"
               className="text-gray-700 hover:text-purple-600 hover:underline underline-offset-4 transition duration-200"
             >
               Contact
-            </Link>
+            </Link> */}
           </div>
 
           {/* === Mobile Menu Button === */}
