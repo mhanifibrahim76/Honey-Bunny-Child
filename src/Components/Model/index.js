@@ -3,7 +3,7 @@ export const services = [
   {
     title: "Assessment & Evaluasi Tumbuh Kembang Anak",
     description:
-      "Suatu bentuk layanan terpadu yang dilakukan oleh Dokter Spesialis Anak Neurologi dan Psikolog Klinis untuk penegakan diagnosa awal serta intervensi dini pada anak yang mengalami keterlambatan tumbuh kembang. Tujuannya agar kondisi dapat diatasi secara cepat dan akurat untuk memperoleh tumbuh kembang optimal serta mencegah kondisi yang tidak diharapkan.",
+      "Suatu bentuk layanan Assesment dan evaluasi perkembangan terapi yg dilakukan oleh terapis senior dan berpengalaman di bidangnya untuk penegakan diagnosa awal serta intervensi dini pada anak yang mengalami keterlambatan tumbuh kembang. Tujuannya agar kondisi dapat diatasi secara cepat dan akurat untuk memperoleh tumbuh kembang optimal serta mencegah kondisi yang tidak diharapkan.",
     icon: "📋",
   },
   {

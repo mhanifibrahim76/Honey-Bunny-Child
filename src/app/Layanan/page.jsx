@@ -76,8 +76,8 @@ const LayananPage = () => {
         {/* ===== Info Biaya ===== */}
         <div className="bg-gradient-to-r from-purple-100 to-pink-100 rounded-2xl p-8 text-center mt-16">
           <p className="text-lg text-gray-700 mb-2">
-            <span className="font-semibold">Kisaran Biaya:</span> Rp 200.000 -
-            Rp 1.000.000
+            <span className="font-semibold">Kisaran Biaya:</span> Rp 150.000 -
+            Rp 250.000
           </p>
           <p className="text-sm text-gray-600">
             *Biaya dapat berbeda tergantung jenis layanan dan kebutuhan terapi.
