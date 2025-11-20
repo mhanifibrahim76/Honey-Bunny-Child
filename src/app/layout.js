@@ -18,32 +18,39 @@ export const metadata = {
   },
 
   description:
-    "Klinik tumbuh kembang anak profesional dengan layanan terapi wicara, terapi okupasi, sensori integrasi, psikologi, dan konsultasi tumbuh kembang.",
+    "Honey Bunny Child Development Center menyediakan layanan terapi wicara, terapi okupasi, sensori integrasi, ABA, fisioterapi, serta asesmen tumbuh kembang anak.",
 
   verification: {
-    google: "7hvkr2WfhiEMys2znkHLABcSlSqLkqUn3KPte0_d-lE",
+    google: "",
   },
 
   keywords: [
+    "Honey Bunny Child",
+    "Honey Bunny Child Development Center",
     "klinik tumbuh kembang anak",
-    "terapi wicara",
-    "terapi okupasi",
-    "psikologi anak",
-    "sensori integrasi",
+    "terapi wicara anak",
+    "terapi okupasi anak",
+    "terapi sensori integrasi",
+    "terapi perilaku ABA",
     "fisioterapi anak",
-    "klinik synapse",
+    "psikologi anak",
+    "asesmen tumbuh kembang anak",
+    "klinik anak berkebutuhan khusus",
+    "speech delay",
+    "autisme",
+    "adhd",
   ],
 
   icons: {
-    icon: "/logo.jpeg",
-    apple: "/logo.jpeg",
-    shortcut: "/logo.jpeg",
+    icon: "/favicon.ico",
+    apple: "/favicon.ico",
+    shortcut: "/favicon.ico",
   },
 
   openGraph: {
     title: "Honey Bunny Child – Terapi & Tumbuh Kembang Anak",
     description:
-      "Klinik profesional yang menangani tumbuh kembang anak melalui terapi wicara, terapi okupasi, fisioterapi, psikologi, dan asesmen anak.",
+      "Honey Bunny Child Development Center menyediakan layanan terapi wicara, terapi okupasi, sensori integrasi, ABA, fisioterapi, serta asesmen tumbuh kembang anak.",
     url: "https://domainkamu.com", // ganti kalau sudah ada domain
     siteName: "Honey Bunny Child",
     type: "website",
