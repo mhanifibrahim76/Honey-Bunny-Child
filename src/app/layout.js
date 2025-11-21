@@ -51,7 +51,7 @@ export const metadata = {
     title: "Honey Bunny Child – Terapi & Tumbuh Kembang Anak",
     description:
       "Honey Bunny Child Development Center menyediakan layanan terapi wicara, terapi okupasi, sensori integrasi, ABA, fisioterapi, serta asesmen tumbuh kembang anak.",
-    url: "https://domainkamu.com", // ganti kalau sudah ada domain
+    url: "https://www.honeybunnytherapy.com", // ganti kalau sudah ada domain
     siteName: "Honey Bunny Child",
     type: "website",
     locale: "id_ID",
@@ -63,7 +63,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://domainkamu.com", // ganti nanti
+    canonical: "https://www.honeybunnytherapy.com", // ganti nanti
   },
 };
 
