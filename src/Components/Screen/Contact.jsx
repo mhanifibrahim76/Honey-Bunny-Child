@@ -37,10 +37,10 @@ const Contact = () => {
                 <div>
                   <p className="font-semibold mb-1">WhatsApp / Telepon</p>
                   <a
-                    href="tel:081287521936"
+                    href="tel:081287521935"
                     className="text-purple-100 hover:text-white transition"
                   >
-                    0812 8752 1936
+                    0812 8752 1935
                   </a>
                 </div>
               </div>
@@ -51,10 +51,10 @@ const Contact = () => {
                 <div>
                   <p className="font-semibold mb-1">Email</p>
                   <a
-                    href="mailto:honeybunny@gmail.com"
+                    href="mailto:honneybunny.therapy@gmail.com"
                     className="text-purple-100 hover:text-white transition"
                   >
-                    honeybunny@gmail.com
+                    honneybunny.therapy@gmail.com
                   </a>
                 </div>
               </div>
