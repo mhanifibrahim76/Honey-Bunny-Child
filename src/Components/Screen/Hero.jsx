@@ -14,7 +14,6 @@ const Hero = () => {
     >
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
-          
           {/* ===== KIRI (Text) ===== */}
           <div className="text-center md:text-left space-y-4 md:space-y-6">
             <div className="inline-block bg-purple-100 text-purple-600 px-3 py-1.5 rounded-full text-xs sm:text-sm font-medium">
@@ -33,18 +32,12 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-3 sm:gap-4 pt-2">
               <a
-                href="https://wa.me/6285211975522"
+                href="https://wa.me/6281287521935"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-5 sm:px-6 md:px-8 py-2.5 sm:py-3 rounded-full text-sm sm:text-base font-semibold hover:shadow-lg transform hover:-translate-y-1 transition"
               >
                 Buat Janji Sekarang
-              </a>
-              <a
-                href="#Fasilitas"
-                className="bg-white text-purple-600 px-5 sm:px-6 md:px-8 py-2.5 sm:py-3 rounded-full text-sm sm:text-base font-semibold border-2 border-purple-500 hover:bg-purple-50 transition"
-              >
-                Lihat Fasilitas
               </a>
             </div>
           </div>
@@ -126,7 +119,6 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
